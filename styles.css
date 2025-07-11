@@ -138,7 +138,7 @@ margin: 0;
     justify-content: center;
     align-items: center;
     width: 100%;
-    flex-wrap: wrap;
+   /* flex-wrap: wrap;*/
 }
 
 .contact-info {
