@@ -1,0 +1,160 @@
+body {
+    background-color: #fff9c1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    }
+
+h2{text-align: center;} 
+
+a { 
+    color: #000000;
+    text-decoration: none;
+}
+/* #1976d2 is a shade of blue */
+
+.header {
+    /*overflow: hidden;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff9c1;
+    top: 0;
+    
+}
+
+.header a{
+    color:#33b300;
+    font-weight: bold;
+    height: 100%;
+    border-radius:5px;
+    padding: 5px 16px; /* horizontal padding for clickable area */
+    margin: 0;
+}
+.header a:hover {
+background: #f5e875;
+color: #278a00;
+}
+
+#left-side {
+   /* this will display in rows next to each other */
+    display: flex;
+ }
+
+.right-side {
+    display: flex;
+    gap: 20px;  /* space between links */
+} 
+
+#main-section {
+    height: calc(100vh - 70px); /* full viewport height */
+    flex-wrap: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    text-align: center;
+    place-items: center;
+    margin-bottom: 120px;
+   /* margin-top: 120px;*/
+}
+
+#main-section h3{
+padding: 0;
+margin: 0;
+}
+
+#main-section h1{
+     font-family: "Ribeye", serif;
+     font-size: 72px;
+     padding: 0;
+     margin: 0 ;
+     color: #ff9800;
+
+}
+
+.button{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #ff9800;
+    font-size: 15px;
+    color: white;
+    border-radius: 0.75rem;
+    height: 40px;
+    width: 200px;
+}
+
+#mission {
+    background-color: #1976d2;
+    color: white;
+    width: 100%;
+}
+
+#team{
+    background-color: #ff9800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.team-member img{
+    border-radius: 100%; /* makes the image round */
+}  
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    }  
+
+.team-member {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    }
+.team-member p {
+    text-align: center;
+    margin: 4px 10px; /* Reduce vertical spacing */
+}
+
+#contact{
+    background-color: #33b300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    gap: 10px; /* space between contact items */
+}
+
+#main-section,
+#our-mission,
+#team,
+#contact {
+    scroll-margin: 70px;
+}
