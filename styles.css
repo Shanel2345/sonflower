@@ -162,3 +162,34 @@ margin: 0;
 #contact {
     scroll-margin: 70px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+   /* gap: 10px;  space between icon and text 
+    width: 90%;
+    justify-content: center;*/
+    }
+    .contact-info {
+        width: 100%;
+        justify-content: start;
+    }
+
+    .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px; /* space between images */
+    }  
+
+    .team-member {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    }
