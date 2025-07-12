@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     margin: 0;
     }
-
+ 
 h2{text-align: center;} 
 
 a { 
@@ -102,6 +102,7 @@ margin: 0;
     color: white;
     width: 100%;
     align-items: center;
+    padding: 20px;
 }
 
 #team{
