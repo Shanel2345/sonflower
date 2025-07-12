@@ -102,6 +102,7 @@ margin: 0;
     width: 100%;
     align-items: center;
     padding-left: 10px;
+    box-sizing: border-box;
 }
 
 #team{
@@ -111,6 +112,7 @@ margin: 0;
     justify-content: center;
     align-items: center;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .team-member img{
