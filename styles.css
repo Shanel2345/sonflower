@@ -108,6 +108,10 @@ margin: 0;
     margin: 0; 
 }
 
+#mission p{
+    margin: 0; 
+}
+
 #team{
     background-color: #ff9800;
     display: flex;
