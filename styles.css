@@ -198,6 +198,8 @@ margin: 0;
         align-items: center;
         justify-content: center;
         width: 10%;
+        width: auto; /* Change width to auto for flexibility */
+        min-width: 50px; /* Adjust min-width based on logo size */
     }
     
     .contact-container {
@@ -229,6 +231,7 @@ margin: 0;
     width: 90%;
     }
 }
+
 
 
 
