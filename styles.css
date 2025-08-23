@@ -198,6 +198,7 @@ margin: 0;
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
+        justify-content: center;
         width: 10%;
     }
     
@@ -230,4 +231,5 @@ margin: 0;
     width: 90%;
     }
 }
+
 
