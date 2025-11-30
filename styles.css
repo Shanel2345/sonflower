@@ -198,6 +198,15 @@ margin: 0;
     gap: 10px; /* space between contact items */
 }
 
+ footer {
+    background-color: #33b300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 #main-section,
 #our-mission,
 #team,
@@ -260,6 +269,7 @@ margin: 0;
     transform: rotateY(180deg);
 }
 }
+
 
 
 
