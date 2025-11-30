@@ -151,7 +151,7 @@ margin: 0;
     transition: all 0.8s ease;
     }
 
-.team-meber: hover{
+.team-member: hover{
     transform: rotateY(180deg);
 }
 
@@ -261,14 +261,15 @@ margin: 0;
     display: flex;
     flex-direction: column;
     width: 90%;
-   /* transform-style: preserve-3d;
+   /*transform-style: preserve-3d;
     transition: all 0.8s ease;*/
     }
 
-  /*  .team-meber: active{
-    transform: rotateY(180deg); */
+   .team-member: active{
+    transform: rotateY(180deg);
 }
 }
+
 
 
 
