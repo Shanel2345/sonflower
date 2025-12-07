@@ -24,6 +24,7 @@ a {
     box-sizing: border-box;
     background-color: #fff9c1;
     top: 0;
+    z-index: 1;
     
 }
 
@@ -269,6 +270,7 @@ margin: 0;
     transform: rotateY(180deg);
 }
 }
+
 
 
 
